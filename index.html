@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Birthday_Timer</title>
 </head>
-<body class="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-white flex flex-col items-center justify-center min-h-screen p-4">
+
+<body
+    class="bg-gradient-to-br from-green-400 via-cyan-500 to-blue-600 text-white flex flex-col items-center justify-center min-h-screen p-4">
 
     <!-- Név -->
-    <h1 onclick="changeName()" 
-        id="name" 
+    <h1 onclick="changeName()" id="name"
         class="cursor-pointer animate-bounce font-bold uppercase text-7xl md:text-8xl lg:text-9xl mb-4 transition-transform hover:scale-110">
         ?
-    </h1> 
+    </h1>
 
-    <h2 class="text-2xl md:text-4xl uppercase mb-6">szülinapjáig</h2> 
+    <h2 class="text-2xl md:text-4xl uppercase mb-6">szülinapjáig</h2>
 
     <!-- Idő Blokkok -->
     <div class="flex flex-wrap gap-4 justify-center items-center">
-        <div class="bg-white/20 backdrop-blur-md px-6 py-4 rounded-lg shadow-lg text-center hover:scale-105 transition-transform">
+        <div
+            class="bg-white/20 backdrop-blur-md px-6 py-4 rounded-lg shadow-lg text-center hover:scale-105 transition-transform">
             <div id="days" class="text-5xl md:text-6xl font-bold">00</div>
             <small class="text-sm uppercase">nap</small>
         </div>
-        <div class="bg-white/20 backdrop-blur-md px-6 py-4 rounded-lg shadow-lg text-center hover:scale-105 transition-transform">
+        <div
+            class="bg-white/20 backdrop-blur-md px-6 py-4 rounded-lg shadow-lg text-center hover:scale-105 transition-transform">
             <div id="hours" class="text-5xl md:text-6xl font-bold">00</div>
             <small class="text-sm uppercase">óra</small>
         </div>
-        <div class="bg-white/20 backdrop-blur-md px-6 py-4 rounded-lg shadow-lg text-center hover:scale-105 transition-transform">
+        <div
+            class="bg-white/20 backdrop-blur-md px-6 py-4 rounded-lg shadow-lg text-center hover:scale-105 transition-transform">
             <div id="minutes" class="text-5xl md:text-6xl font-bold">00</div>
             <small class="text-sm uppercase">perc</small>
         </div>
-        <div class="bg-white/20 backdrop-blur-md px-6 py-4 rounded-lg shadow-lg text-center hover:scale-105 transition-transform">
+        <div
+            class="bg-white/20 backdrop-blur-md px-6 py-4 rounded-lg shadow-lg text-center hover:scale-105 transition-transform">
             <div id="seconds" class="text-5xl md:text-6xl font-bold">00</div>
             <small class="text-sm uppercase">másodperc</small>
         </div>
@@ -41,4 +47,5 @@
 
     <script src="index.js"></script>
 </body>
+
 </html>
